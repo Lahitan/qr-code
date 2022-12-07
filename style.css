@@ -8,7 +8,7 @@
 }
 
 body{
-    font-size: 15px;
+    font-size: 1rem;
     min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
     display: flex;
@@ -16,12 +16,7 @@ body{
     align-items: center;
 }
 
-/*.container{
-    
-   
-}*/
-
-.hero{
+.container{
     max-width: 300px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -38,7 +33,7 @@ body{
     margin: 1rem ;
 }
 
-h3{
+h2{
     font-weight: 700;
     text-align: center;
     color: hsl(218, 44%, 22%);
@@ -51,6 +46,16 @@ p{
     text-align:center;
     padding: 1rem;
     color: hsl(220, 15%, 55%);
+}
+
+.sr-only:not(:focus):not(:active){
+ clip: rect(0 0 0 0);
+ clip-path: inset(50%);
+ height: 1px;
+ overflow: hidden;
+ position: absolute;
+ white-space: nowrap;
+ width: 1px;
 }
 
 
